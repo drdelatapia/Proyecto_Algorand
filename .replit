@@ -1,0 +1,6 @@
+run = "Algokit install"
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "Algokit install"]
